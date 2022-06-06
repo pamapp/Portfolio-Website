@@ -1,0 +1,187 @@
+body {
+	background-color: #1D1D1D;
+	font-family: 'Open Sans', sans-serif;
+	padding:  0;
+	margin:  0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-stretch: normal;
+  font-style: normal;
+  padding: 15px 3%;
+}
+
+/*NAVIGATION BAR*/
+
+.navbar-logo {
+   text-decoration: none;
+   display: flex;
+   position: relative;
+   cursor: pointer;
+}
+
+.logo {
+   color: white;
+   font-weight: bold;
+   font-size: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.color-text {
+	color: #CC00FF;
+}
+
+.nav__links a, .overlay__content a {
+   color: white;
+   font-size: 18px;
+   text-decoration: none;
+}
+
+.nav__links {
+   color: white;
+   list-style: none;
+   display: flex;
+}
+
+.nav__links li {
+   padding: 0px 20px;
+}
+
+.nav__links li a {
+   transition: color 0.2s ease 0s;
+}
+
+.nav__links li a:hover {
+   color: #CC00FF;
+}
+
+/*ABOUT ME*/
+
+.about_me_full {
+	padding: 15px 3%;
+	display: flex;
+	flex-direction: row;
+}
+
+.about_me h2 {
+	font-weight: bold;
+	font-size: 100px;
+	color: white;
+	margin-bottom: 20px;
+	margin-top: 35px;
+}
+
+.line {
+   width: 75px;
+   border-bottom: solid 1px #CC00FF;
+}
+
+.about_me h3 {
+	font-weight: normal;
+	font-size: 25px;
+	color: white;
+	margin: 30px 0px;
+}
+
+.button-contact-me {
+   display: flex;
+   color: #CC00FF;
+   font-weight: bold;
+   font-size: 20px;
+   width: 200px;
+   height: 60px;
+
+   color: #CC00FF;
+   border: 1px;
+   border-color: #CC00FF;
+   border-style: solid;
+
+   cursor: pointer;
+   text-decoration: none;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   transition: color 0.1s ease 0s;
+}
+
+.button-contact-me:hover,
+.button-contact-me:focus {
+	color: #FFFFFF;
+	background: #CC00FF;
+}
+
+.main_image img {
+	margin-top: 10px;
+	margin-bottom: 40px;
+   border-radius: 150px;
+   float: right;
+   max-width: 1000px;
+   min-width: 400px;
+   width: 60%;
+   height: 81,6%;
+}
+
+
+/*SKILLS*/
+
+.skills {
+	background: #242424;
+	width: 100%;
+	height: 100%;
+}
+
+.skills h2 {
+	color: #CC00FF;
+	font-weight: normal;
+	text-align: center;
+	padding: 50px 0 0 0;
+	margin-bottom: 0;
+}
+
+.skills h1 {
+	color: #FFFFFF;
+	font-weight: normal;
+	text-align: center;
+	padding: 0;
+	margin-top: 0;
+}
+
+.skills-buttons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	padding: 15px 17%;
+}
+
+.skill-button {
+	/*display: table-column;*/
+	display: flex;
+	flex-direction: column;
+   align-items: center;
+   justify-content: center;
+	width: 250px;
+	height: 250px;
+	background: #1D1D1D;
+	margin-top: auto;
+	/*padding: auto;*/
+	/*padding-top: 20px;*/
+
+}
+
+.skill-button img {
+	width: 100px;
+}
+
+.skill-button h3 {
+	color:  white;
+}
+
+.skill-button div {
+	color: #CC00FF;
+}
